@@ -460,6 +460,17 @@ footer{
   nav{padding:.9rem 1.25rem;}
 }
 
+/* ── MEMBER LINKS ── */
+.member-link-btn {
+  display:inline-flex;align-items:center;gap:.4rem;
+  font-size:.75rem;font-weight:600;padding:.35rem 1rem;
+  border-radius:100px;border:1px solid var(--border2);
+  color:var(--text);text-decoration:none;
+  background:rgba(139,120,255,.08);
+  transition:background .2s,border-color .2s,transform .2s;
+}
+.member-link-btn:hover{background:rgba(139,120,255,.2);border-color:var(--purple);transform:translateY(-2px);}
+
 /* ── LIGHTBOX ── */
 .avatar-inner img { cursor:zoom-in; }
 #lightbox{
@@ -578,6 +589,14 @@ footer{
         <span class="mtag">HTML/CSS</span>
         <span class="mtag">UI Design</span>
       </div>
+      <div class="member-links" style="display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap;">
+        <a href="https://github.com/Gowtham270807" target="_blank" rel="noopener" class="member-link-btn">
+          🐙 GitHub
+        </a>
+        <a href="https://github.com/Gowtham270807/GGS-Portfolio" target="_blank" rel="noopener" class="member-link-btn">
+          📁 README / Repo
+        </a>
+      </div>
     </div>
 
     <!-- Member 2 -->
@@ -603,6 +622,14 @@ footer{
         <span class="mtag">Node.js</span>
         <span class="mtag">SQL</span>
       </div>
+      <div class="member-links" style="display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap;">
+        <a href="https://github.com/jaswanth07m" target="_blank" rel="noopener" class="member-link-btn">
+          🐙 GitHub
+        </a>
+        <a href="https://github.com/jaswanth07m/GGS-Portfolio" target="_blank" rel="noopener" class="member-link-btn">
+          📁 README / Repo
+        </a>
+      </div>
     </div>
 
     <!-- Member 3 -->
@@ -627,6 +654,14 @@ footer{
         <span class="mtag">Python</span>
         <span class="mtag">ML</span>
         <span class="mtag">DSA</span>
+      </div>
+      <div class="member-links" style="display:flex;gap:.6rem;margin-top:1rem;flex-wrap:wrap;">
+        <a href="https://github.com/sahithya1006" target="_blank" rel="noopener" class="member-link-btn">
+          🐙 GitHub
+        </a>
+        <a href="https://github.com/sahithya1006/GGS-Portfolio" target="_blank" rel="noopener" class="member-link-btn">
+          📁 README / Repo
+        </a>
       </div>
     </div>
 
@@ -708,11 +743,6 @@ footer{
       <div class="ws-desc">Ship a rough version quickly, gather feedback, and refine in cycles. Done beats perfect on day one.</div>
     </div>
     <div class="ws-card reveal reveal-d4">
-      <span class="ws-emoji">📚</span>
-      <div class="ws-name">Learn-it-then-Build-it</div>
-      <div class="ws-desc">When we hit something new, we take an hour to understand it deeply before writing a single line.</div>
-    </div>
-    <div class="ws-card reveal reveal-d5">
       <span class="ws-emoji">🤝</span>
       <div class="ws-name">Blame-free Debugging</div>
       <div class="ws-desc">Bugs are team problems, not personal failures. We troubleshoot together, no finger-pointing allowed.</div>
@@ -944,11 +974,7 @@ footer{
           </span>
         </a>
       </div>
-      <div class="social-row">
-        <a href="#" class="social-btn">🐙 GitHub</a>
-        <a href="#" class="social-btn">💼 LinkedIn</a>
-        <a href="#" class="social-btn">🐦 Twitter</a>
-      </div>
+
     </div>
   </div>
 </div>
